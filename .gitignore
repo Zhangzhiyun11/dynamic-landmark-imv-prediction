@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+restricted/
+data/
+outputs/
+checkpoints/
+*.parquet
+*.duckdb
+*.db
+*.cbm
+*.pkl
+*.joblib
+*.npy
+*.npz
