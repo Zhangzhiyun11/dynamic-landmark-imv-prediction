@@ -1,6 +1,6 @@
 # Dynamic landmark IMV prediction code
 
-This directory is the public-code release candidate for the Study B/V2 analysis of repeated-landmark prediction of observed new invasive mechanical ventilation in MIMIC-IV v3.1 and eICU-CRD v2.0.
+This repository contains the public analysis code for the Study B/V2 analysis of repeated-landmark prediction of observed new invasive mechanical ventilation in MIMIC-IV v3.1 and eICU-CRD v2.0.
 
 ## Contents
 
@@ -10,7 +10,7 @@ This directory is the public-code release candidate for the Study B/V2 analysis 
 - `reporting/`: scripts that generate manuscript figures from aggregate result files.
 - `public_assets/`: public feature and aggregate missingness dictionaries containing no patient-, stay-, or hospital-level rows.
 - `requirements-lock.txt`: Python environment versions used for the locked analysis.
-- `CODE_RELEASE_MANIFEST_V0_6.json`: SHA-256 inventory of every file in this release candidate.
+- `CODE_RELEASE_MANIFEST_V0_6.json`: SHA-256 inventory of the public code release.
 
 ## Data access
 
@@ -29,4 +29,8 @@ The scripts retain their frozen version identifiers and therefore are not renumb
 
 ## Public-release boundary
 
-This candidate excludes patient-level data, hospital identifiers and mappings, row-level predictions, restricted bootstrap replicates, checkpoints, fitted model artefacts, database files, and local credentials. A repository license has not been selected; add an appropriate `LICENSE` file before describing the GitHub repository as open source.
+This repository excludes patient-level data, hospital identifiers and mappings, row-level predictions, restricted bootstrap replicates, checkpoints, fitted model artefacts, database files, and local credentials.
+
+## License
+
+The repository is distributed under the MIT License. See `LICENSE`.
