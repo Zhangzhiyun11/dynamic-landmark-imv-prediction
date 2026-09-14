@@ -1,0 +1,141 @@
+feature,domain,description,missing_landmarks_n,evaluable_landmarks_n,missing_percent
+landmark_h,Context,Landmark-available value; Hours from ICU admission at the prediction time,0,568182,0.000
+age,Context,Landmark-available value; Age at hospital or ICU admission,0,568182,0.000
+sex,Context,Categorical context; Recorded sex,0,568182,0.000
+admission_source,Context,Categorical context; Recorded source of hospital or ICU admission,0,568182,0.000
+icu_type,Context,Categorical context; Harmonised ICU type,0,568182,0.000
+preicu_los_hours,Context,Landmark-available value; Elapsed time from hospital admission to ICU admission,3215,568182,0.566
+bmi,Context,Landmark-available value; Most recent eligible body mass index,19918,568182,3.506
+gcs_latest,Neurological,Latest eligible value; Glasgow Coma Scale,191616,568182,33.724
+gcs_median,Neurological,Median of eligible values; Glasgow Coma Scale,191616,568182,33.724
+gcs_min,Neurological,Minimum eligible value; Glasgow Coma Scale,191616,568182,33.724
+gcs_max,Neurological,Maximum eligible value; Glasgow Coma Scale,191616,568182,33.724
+gcs_sd,Neurological,Standard deviation of eligible values; Glasgow Coma Scale,323093,568182,56.864
+gcs_iqr,Neurological,Interquartile range of eligible values; Glasgow Coma Scale,323093,568182,56.864
+gcs_slope,Neurological,Prespecified time slope; Glasgow Coma Scale,477865,568182,84.104
+gcs_abnormal_prop,Neurological,Proportion of observed 2-h bins outside the prespecified range; Glasgow Coma Scale,191616,568182,33.724
+gcs_longest_abnormal_run,Neurological,Longest consecutive abnormal 2-h-bin run; Glasgow Coma Scale,191616,568182,33.724
+hr_latest,Haemodynamic,Latest eligible value; Heart rate,12854,568182,2.262
+hr_median,Haemodynamic,Median of eligible values; Heart rate,12854,568182,2.262
+hr_min,Haemodynamic,Minimum eligible value; Heart rate,12854,568182,2.262
+hr_max,Haemodynamic,Maximum eligible value; Heart rate,12854,568182,2.262
+hr_sd,Haemodynamic,Standard deviation of eligible values; Heart rate,13965,568182,2.458
+hr_iqr,Haemodynamic,Interquartile range of eligible values; Heart rate,13965,568182,2.458
+hr_slope,Haemodynamic,Prespecified time slope; Heart rate,17503,568182,3.081
+hr_abnormal_prop,Haemodynamic,Proportion of observed 2-h bins outside the prespecified range; Heart rate,12854,568182,2.262
+hr_longest_abnormal_run,Haemodynamic,Longest consecutive abnormal 2-h-bin run; Heart rate,12854,568182,2.262
+map_latest,Haemodynamic,Latest eligible value; Mean arterial pressure,12187,568182,2.145
+map_median,Haemodynamic,Median of eligible values; Mean arterial pressure,12187,568182,2.145
+map_min,Haemodynamic,Minimum eligible value; Mean arterial pressure,12187,568182,2.145
+map_max,Haemodynamic,Maximum eligible value; Mean arterial pressure,12187,568182,2.145
+map_sd,Haemodynamic,Standard deviation of eligible values; Mean arterial pressure,15048,568182,2.648
+map_iqr,Haemodynamic,Interquartile range of eligible values; Mean arterial pressure,15048,568182,2.648
+map_slope,Haemodynamic,Prespecified time slope; Mean arterial pressure,44008,568182,7.745
+map_abnormal_prop,Haemodynamic,Proportion of observed 2-h bins outside the prespecified range; Mean arterial pressure,12187,568182,2.145
+map_longest_abnormal_run,Haemodynamic,Longest consecutive abnormal 2-h-bin run; Mean arterial pressure,12187,568182,2.145
+rr_latest,Respiratory,Latest eligible value; Respiratory rate,68637,568182,12.080
+rr_median,Respiratory,Median of eligible values; Respiratory rate,68637,568182,12.080
+rr_min,Respiratory,Minimum eligible value; Respiratory rate,68637,568182,12.080
+rr_max,Respiratory,Maximum eligible value; Respiratory rate,68637,568182,12.080
+rr_sd,Respiratory,Standard deviation of eligible values; Respiratory rate,71877,568182,12.650
+rr_iqr,Respiratory,Interquartile range of eligible values; Respiratory rate,71877,568182,12.650
+rr_slope,Respiratory,Prespecified time slope; Respiratory rate,79885,568182,14.060
+rr_abnormal_prop,Respiratory,Proportion of observed 2-h bins outside the prespecified range; Respiratory rate,68637,568182,12.080
+rr_longest_abnormal_run,Respiratory,Longest consecutive abnormal 2-h-bin run; Respiratory rate,68637,568182,12.080
+sbp_latest,Haemodynamic,Latest eligible value; Systolic blood pressure,12193,568182,2.146
+sbp_median,Haemodynamic,Median of eligible values; Systolic blood pressure,12193,568182,2.146
+sbp_min,Haemodynamic,Minimum eligible value; Systolic blood pressure,12193,568182,2.146
+sbp_max,Haemodynamic,Maximum eligible value; Systolic blood pressure,12193,568182,2.146
+sbp_sd,Haemodynamic,Standard deviation of eligible values; Systolic blood pressure,15062,568182,2.651
+sbp_iqr,Haemodynamic,Interquartile range of eligible values; Systolic blood pressure,15062,568182,2.651
+sbp_slope,Haemodynamic,Prespecified time slope; Systolic blood pressure,44134,568182,7.768
+sbp_abnormal_prop,Haemodynamic,Proportion of observed 2-h bins outside the prespecified range; Systolic blood pressure,12193,568182,2.146
+sbp_longest_abnormal_run,Haemodynamic,Longest consecutive abnormal 2-h-bin run; Systolic blood pressure,12193,568182,2.146
+spo2_latest,Respiratory,Latest eligible value; Peripheral oxygen saturation,25706,568182,4.524
+spo2_median,Respiratory,Median of eligible values; Peripheral oxygen saturation,25706,568182,4.524
+spo2_min,Respiratory,Minimum eligible value; Peripheral oxygen saturation,25706,568182,4.524
+spo2_max,Respiratory,Maximum eligible value; Peripheral oxygen saturation,25706,568182,4.524
+spo2_sd,Respiratory,Standard deviation of eligible values; Peripheral oxygen saturation,33688,568182,5.929
+spo2_iqr,Respiratory,Interquartile range of eligible values; Peripheral oxygen saturation,33688,568182,5.929
+spo2_slope,Respiratory,Prespecified time slope; Peripheral oxygen saturation,55858,568182,9.831
+spo2_abnormal_prop,Respiratory,Proportion of observed 2-h bins outside the prespecified range; Peripheral oxygen saturation,25706,568182,4.524
+spo2_longest_abnormal_run,Respiratory,Longest consecutive abnormal 2-h-bin run; Peripheral oxygen saturation,25706,568182,4.524
+temperature_latest,Temperature,Latest eligible value; Body temperature,51520,568182,9.068
+temperature_median,Temperature,Median of eligible values; Body temperature,51520,568182,9.068
+temperature_min,Temperature,Minimum eligible value; Body temperature,51520,568182,9.068
+temperature_max,Temperature,Maximum eligible value; Body temperature,51520,568182,9.068
+temperature_sd,Temperature,Standard deviation of eligible values; Body temperature,117057,568182,20.602
+temperature_iqr,Temperature,Interquartile range of eligible values; Body temperature,117057,568182,20.602
+temperature_slope,Temperature,Prespecified time slope; Body temperature,482381,568182,84.899
+temperature_abnormal_prop,Temperature,Proportion of observed 2-h bins outside the prespecified range; Body temperature,51520,568182,9.068
+temperature_longest_abnormal_run,Temperature,Longest consecutive abnormal 2-h-bin run; Body temperature,51520,568182,9.068
+shock_index_latest,Haemodynamic,Latest eligible value; Heart rate divided by systolic blood pressure,15728,568182,2.768
+oxygen_latest_level,Respiratory,Latest documented ordinal support level; Documented non-invasive oxygen-support level,475986,568182,83.774
+oxygen_max_level,Respiratory,Maximum documented ordinal support level; Documented non-invasive oxygen-support level,475986,568182,83.774
+oxygen_escalation_count,Respiratory,Number of upward support transitions; Documented non-invasive oxygen-support level,475986,568182,83.774
+oxygen_time_since_latest_h,Respiratory,Hours since latest eligible documentation; Documented non-invasive oxygen-support level,475986,568182,83.774
+urine_6h_ml,Renal output,Cumulative volume in the preceding 6 h; Documented urine output,286391,568182,50.405
+urine_12h_ml,Renal output,Cumulative volume in the preceding 12 h; Documented urine output,221941,568182,39.062
+vaso_any_12h,Vasopressor support,Any documented exposure in the preceding 12 h; Exposure to the prespecified vasopressor set,125073,568182,22.013
+vaso_current,Vasopressor support,Current exposure proxy at the landmark; Exposure to the prespecified vasopressor set,125073,568182,22.013
+vaso_max_agent_count,Vasopressor support,Maximum concurrent agent count; Exposure to the prespecified vasopressor set,125073,568182,22.013
+bicarbonate_latest,Routine laboratory,Latest eligible value; Serum bicarbonate,296584,568182,52.199
+bicarbonate_median,Routine laboratory,Median of eligible values; Serum bicarbonate,296584,568182,52.199
+bicarbonate_min,Routine laboratory,Minimum eligible value; Serum bicarbonate,296584,568182,52.199
+bicarbonate_max,Routine laboratory,Maximum eligible value; Serum bicarbonate,296584,568182,52.199
+bicarbonate_delta,Routine laboratory,Latest minus earliest eligible value; Serum bicarbonate,542662,568182,95.508
+bicarbonate_slope,Routine laboratory,Prespecified time slope; Serum bicarbonate,542662,568182,95.508
+bun_latest,Routine laboratory,Latest eligible value; Blood urea nitrogen,282232,568182,49.673
+bun_median,Routine laboratory,Median of eligible values; Blood urea nitrogen,282232,568182,49.673
+bun_min,Routine laboratory,Minimum eligible value; Blood urea nitrogen,282232,568182,49.673
+bun_max,Routine laboratory,Maximum eligible value; Blood urea nitrogen,282232,568182,49.673
+bun_delta,Routine laboratory,Latest minus earliest eligible value; Blood urea nitrogen,542258,568182,95.437
+bun_slope,Routine laboratory,Prespecified time slope; Blood urea nitrogen,542258,568182,95.437
+chloride_latest,Routine laboratory,Latest eligible value; Serum chloride,280525,568182,49.372
+chloride_median,Routine laboratory,Median of eligible values; Serum chloride,280525,568182,49.372
+chloride_min,Routine laboratory,Minimum eligible value; Serum chloride,280525,568182,49.372
+chloride_max,Routine laboratory,Maximum eligible value; Serum chloride,280525,568182,49.372
+chloride_delta,Routine laboratory,Latest minus earliest eligible value; Serum chloride,540821,568182,95.184
+chloride_slope,Routine laboratory,Prespecified time slope; Serum chloride,540821,568182,95.184
+creatinine_latest,Routine laboratory,Latest eligible value; Serum creatinine,281408,568182,49.528
+creatinine_median,Routine laboratory,Median of eligible values; Serum creatinine,281408,568182,49.528
+creatinine_min,Routine laboratory,Minimum eligible value; Serum creatinine,281408,568182,49.528
+creatinine_max,Routine laboratory,Maximum eligible value; Serum creatinine,281408,568182,49.528
+creatinine_delta,Routine laboratory,Latest minus earliest eligible value; Serum creatinine,541948,568182,95.383
+creatinine_slope,Routine laboratory,Prespecified time slope; Serum creatinine,541948,568182,95.383
+glucose_latest,Routine laboratory,Latest eligible value; Blood glucose,280817,568182,49.424
+glucose_median,Routine laboratory,Median of eligible values; Blood glucose,280817,568182,49.424
+glucose_min,Routine laboratory,Minimum eligible value; Blood glucose,280817,568182,49.424
+glucose_max,Routine laboratory,Maximum eligible value; Blood glucose,280817,568182,49.424
+glucose_delta,Routine laboratory,Latest minus earliest eligible value; Blood glucose,538708,568182,94.813
+glucose_slope,Routine laboratory,Prespecified time slope; Blood glucose,538708,568182,94.813
+hemoglobin_latest,Routine laboratory,Latest eligible value; Haemoglobin,283764,568182,49.942
+hemoglobin_median,Routine laboratory,Median of eligible values; Haemoglobin,283764,568182,49.942
+hemoglobin_min,Routine laboratory,Minimum eligible value; Haemoglobin,283764,568182,49.942
+hemoglobin_max,Routine laboratory,Maximum eligible value; Haemoglobin,283764,568182,49.942
+hemoglobin_delta,Routine laboratory,Latest minus earliest eligible value; Haemoglobin,530643,568182,93.393
+hemoglobin_slope,Routine laboratory,Prespecified time slope; Haemoglobin,530643,568182,93.393
+platelet_latest,Routine laboratory,Latest eligible value; Platelet count,305809,568182,53.822
+platelet_median,Routine laboratory,Median of eligible values; Platelet count,305809,568182,53.822
+platelet_min,Routine laboratory,Minimum eligible value; Platelet count,305809,568182,53.822
+platelet_max,Routine laboratory,Maximum eligible value; Platelet count,305809,568182,53.822
+platelet_delta,Routine laboratory,Latest minus earliest eligible value; Platelet count,551964,568182,97.146
+platelet_slope,Routine laboratory,Prespecified time slope; Platelet count,551964,568182,97.146
+potassium_latest,Routine laboratory,Latest eligible value; Serum potassium,259740,568182,45.714
+potassium_median,Routine laboratory,Median of eligible values; Serum potassium,259740,568182,45.714
+potassium_min,Routine laboratory,Minimum eligible value; Serum potassium,259740,568182,45.714
+potassium_max,Routine laboratory,Maximum eligible value; Serum potassium,259740,568182,45.714
+potassium_delta,Routine laboratory,Latest minus earliest eligible value; Serum potassium,525433,568182,92.476
+potassium_slope,Routine laboratory,Prespecified time slope; Serum potassium,525433,568182,92.476
+sodium_latest,Routine laboratory,Latest eligible value; Serum sodium,274673,568182,48.342
+sodium_median,Routine laboratory,Median of eligible values; Serum sodium,274673,568182,48.342
+sodium_min,Routine laboratory,Minimum eligible value; Serum sodium,274673,568182,48.342
+sodium_max,Routine laboratory,Maximum eligible value; Serum sodium,274673,568182,48.342
+sodium_delta,Routine laboratory,Latest minus earliest eligible value; Serum sodium,532156,568182,93.659
+sodium_slope,Routine laboratory,Prespecified time slope; Serum sodium,532156,568182,93.659
+wbc_latest,Routine laboratory,Latest eligible value; White blood cell count,305804,568182,53.821
+wbc_median,Routine laboratory,Median of eligible values; White blood cell count,305804,568182,53.821
+wbc_min,Routine laboratory,Minimum eligible value; White blood cell count,305804,568182,53.821
+wbc_max,Routine laboratory,Maximum eligible value; White blood cell count,305804,568182,53.821
+wbc_delta,Routine laboratory,Latest minus earliest eligible value; White blood cell count,553016,568182,97.331
+wbc_slope,Routine laboratory,Prespecified time slope; White blood cell count,553016,568182,97.331

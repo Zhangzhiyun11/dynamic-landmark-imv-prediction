@@ -1,0 +1,17 @@
+domain,canonical_inputs,static_or_snapshot_representation,dynamic_representation,core_tier,known_mapping_status,leakage_or_interpretation_rule
+demographics,"age,sex",baseline only,none,core,available both databases,do not infer biology from subgroup coefficients
+body_size,"BMI,height,weight",latest pre-landmark valid value,optional change only if timestamps reliable,core_candidate,available but missingness requires audit,no post-landmark weights
+care_context,"pre-ICU LOS,admission source,ICU type",baseline only,none,core,available both databases,care-process variables are not physiology
+respiratory_rate,RR,latest within staleness limit,"median,max,SD/IQR,Theil-Sen slope,abnormal burden,longest run,onsets,measurement density",core,existing cross-database mapping,thresholds not selected by performance
+oxygen_saturation,SpO2,latest within staleness limit,"median,min,SD/IQR,slope,hypoxemia burden,longest run,onsets,measurement density",core,existing cross-database mapping,missing bins are not normal
+circulation,"HR,SBP,MAP",latest within staleness limit,"level,extrema,variability,slope,shock index,hypotension burden",core_candidate,"HR/MAP mapped; SBP requires V2 audit",hard ranges and units frozen before outcomes
+temperature,temperature,latest within staleness limit,"level,range,slope,fever/hypothermia burden",core_candidate,available but source/unit audit required,C/F conversion before derivation
+neurologic,"GCS total/components,RASS",latest within staleness limit,"minimum,change,slope,low-score burden",core_candidate,"GCS available; RASS mapping pending",sedation and intubation-decision proximity require lag sensitivity
+oxygen_support,"device category,flow,FiO2",latest ordered level,"time-weighted level,max level,escalation count,time since escalation,flow/FiO2 change",core_candidate,cross-hospital interface coverage pending,exclude ventilator settings after IMV and decision/order proxies
+oxygenation_index,"S/F ratio,ROX-like",latest paired value,"minimum,slope,low-value burden",core_candidate,requires pairing and FiO2 reliability audit,never assume FiO2=0.21 when undocumented
+vasopressor,"agent exposure,norepinephrine-equivalent dose",current exposure/dose,"maximum,time-weighted dose,new escalation,dose slope",core_candidate,"MIMIC derived available;eICU infusion mapping pending",treatment response proxy not causal physiology
+renal_fluid,"urine output,net fluid balance",recent rate/current cumulative,"6h/12h urine rate,oliguria burden,fluid balance change",core_candidate,raw interfaces exist; harmonization pending,weight denominator and reset rules must be frozen
+routine_labs,"WBC,hemoglobin,platelet,sodium,potassium,chloride,bicarbonate,BUN,creatinine,glucose",latest valid value,"delta/slope only when repeated values sufficient",extended_core_candidate,existing both databases,training-fold missingness handling only
+abg,"pH,PaO2,PaCO2,lactate,bicarbonate",latest arterial value,"extrema,delta,slope,abnormal burden",extension,available but sparse/selection-prone,separate ABG extension; not required for core
+measurement_process,"counts,nonempty bins,time since last measurement",current observability,"density and gap features",sensitivity_only,derivable both databases,care-process proxy; primary inclusion requires separate justification
+forbidden_decision_proxies,"RSI drugs,intubation order,ventilator order,airway procedure preparation,post-IMV ventilator settings",none,none,forbidden,not applicable,never enter predictors

@@ -1,0 +1,27 @@
+domain,feature_or_family,representation,missingness
+Neurological,gcs_latest,Latest eligible value,"191,616 (33.7%)"
+Neurological,gcs_slope,Prespecified time slope,"477,865 (84.1%)"
+Haemodynamic,hr_latest,Latest eligible value,"12,854 (2.3%)"
+Haemodynamic,hr_slope,Prespecified time slope,"17,503 (3.1%)"
+Haemodynamic,map_latest,Latest eligible value,"12,187 (2.1%)"
+Haemodynamic,map_slope,Prespecified time slope,"44,008 (7.7%)"
+Respiratory,rr_latest,Latest eligible value,"68,637 (12.1%)"
+Respiratory,rr_slope,Prespecified time slope,"79,885 (14.1%)"
+Haemodynamic,sbp_latest,Latest eligible value,"12,193 (2.1%)"
+Haemodynamic,sbp_slope,Prespecified time slope,"44,134 (7.8%)"
+Respiratory,spo2_latest,Latest eligible value,"25,706 (4.5%)"
+Respiratory,spo2_slope,Prespecified time slope,"55,858 (9.8%)"
+Temperature,temperature_latest,Latest eligible value,"51,520 (9.1%)"
+Temperature,temperature_slope,Prespecified time slope,"482,381 (84.9%)"
+Respiratory,oxygen_latest_level,Latest documented ordinal support level,"475,986 (83.8%)"
+Respiratory,oxygen_max_level,Maximum documented ordinal support level,"475,986 (83.8%)"
+Respiratory,oxygen_escalation_count,Number of upward support transitions,"475,986 (83.8%)"
+Renal output,urine_6h_ml,Cumulative volume in the preceding 6 h,"286,391 (50.4%)"
+Renal output,urine_12h_ml,Cumulative volume in the preceding 12 h,"221,941 (39.1%)"
+Vasopressor support,vaso_any_12h,Any documented exposure in the preceding 12 h,"125,073 (22.0%)"
+Vasopressor support,vaso_current,Current exposure proxy at the landmark,"125,073 (22.0%)"
+Vasopressor support,vaso_max_agent_count,Maximum concurrent agent count,"125,073 (22.0%)"
+Routine laboratory,"Ten core laboratory variables (bicarbonate, bun, chloride, creatinine, glucose, hemoglobin, platelet, potassium, sodium, wbc)",Latest value,45.7%–53.8% across features
+Routine laboratory,"Ten core laboratory variables (bicarbonate, bun, chloride, creatinine, glucose, hemoglobin, platelet, potassium, sodium, wbc)",12-h median,45.7%–53.8% across features
+Routine laboratory,"Ten core laboratory variables (bicarbonate, bun, chloride, creatinine, glucose, hemoglobin, platelet, potassium, sodium, wbc)",Latest minus earliest,92.5%–97.3% across features
+Routine laboratory,"Ten core laboratory variables (bicarbonate, bun, chloride, creatinine, glucose, hemoglobin, platelet, potassium, sodium, wbc)",12-h slope,92.5%–97.3% across features
