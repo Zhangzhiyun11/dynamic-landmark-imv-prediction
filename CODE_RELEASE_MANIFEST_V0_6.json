@@ -1,6 +1,6 @@
 {
   "release_candidate": "V0.6",
-  "status": "PUBLIC_SAFE_CODE_CANDIDATE_PENDING_GITHUB_URL_AND_LICENSE",
+  "status": "PUBLIC_CODE_RELEASE",
   "source_analysis_lock": "study_b_v2/08_lock/V2_FINAL_RESULTS_LOCK_V0_1.json",
   "excluded": [
     "patient-level and row-level data",
@@ -20,9 +20,13 @@
       "sha256": "4a248b566c731da033509d0b0596f9a0ca41aca715bcda300422539b06455837",
       "bytes": 133
     },
+    "LICENSE": {
+      "sha256": "c9a55bd7f5876753aa75fdf4a33d446176b780c26ddd16900d2985a6c5bf7b6b",
+      "bytes": 1069
+    },
     "README.md": {
-      "sha256": "94bd3b355610a348ca03eac44b1f3d5eccc9b82de347fb17760bd19a5885610b",
-      "bytes": 2538
+      "sha256": "39a73f2bbf8dbc4ba46d21b85ecbd701fd579a3e719ade1e3ff3f6f6fc8f1750",
+      "bytes": 2471
     },
     "pipeline/build_v2_t3_feature_registry_v0_1.sql": {
       "sha256": "be3951902a6ae7abc24563c1a7644df4294341d614dcf55f9d85a374f9172c90",
@@ -356,5 +360,7 @@
       "sha256": "c1b569f2dd3f95fd5427fc0428f6196d5e008c3889422651303d9e316e66cbdd",
       "bytes": 2863
     }
-  }
+  },
+  "repository": "https://github.com/Zhangzhiyun11/dynamic-landmark-imv-prediction",
+  "license": "MIT"
 }
